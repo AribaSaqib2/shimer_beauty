@@ -149,7 +149,7 @@ else{
                           <td ><?php echo $row[6]?></td>
                           <td ><?php echo $row[7]?></td>
                           <td ><?php echo $row[8]?></td>
-                          <td ><?php echo $row[9]?></td>
+                          <td ><?php echo substr( $row[9],0,15).'....'?></td>
                           <td ><?php echo $row[10]?></td>
                           <td ><?php echo $row[11]?></td>    
                           <td><a href="edit.php?id=<?php echo $row['p_id']; ?>">Edit</a></td>
